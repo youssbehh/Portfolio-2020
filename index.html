@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+</html>
+<html>
+<link type="text/css" rel="stylesheet" href="styles.css">
+<script type="text/javascript" src="javascript.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <meta charset="UTF-8">
+</head>
+
+
+
+<body>
+    <header>
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <!-- menu items -->
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#pres">
+                Présentation
+              </a>
+                    </li>
+                    <li>
+                        <a href="#sites">
+                Mes Sites
+              </a>
+                    </li>
+                    <li>
+                        <a href="#compe">
+                Compétences
+              </a>
+                    </li>
+                    <li>
+                        <a href="#experiences">
+                Expériences
+              </a>
+                    </li>
+                    <li>
+                        <a href="#autre">
+                Divers
+              </a>
+                    </li>
+                    <li>
+                        <a href="#cont">
+                Contacts
+              </a>
+                    </li>
+                    <li>
+                        <div id="ejs_heure">Initialisation</div>
+                    </li>
+                </ul>
+                <ul>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="boxslide">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- Slide One - Set the background image for this slide in the line below -->
+                <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4"></h3>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+                <!-- Slide Two - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=752&q=80')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4"></h3>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+                <!-- Slide Three - Set the background image for this slide in the line below -->
+                <div class="carousel-item" style="background-image: url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="display-4"></h3>
+                        <p class="lead"></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <section class="pres" id="pres">
+
+        <div class="presentation">
+            <article>
+                <h1>Présentation<br><img src="https://img.icons8.com/office/50/000000/parse-from-clipboard.png" width="5%" /></h1>
+            </article>
+        </div>
+
+    </section>
+
+    <div class="pesentimg">
+        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHOiYXD9-UUWQ/profile-displayphoto-shrink_800_800/0/1587724333275?e=1643846400&v=beta&t=Ovd0K3E9Ff_kV6L18pCzAzSN59h6A3T9eOU6bi6p0_M">
+    </div>
+
+    <div class="present">
+        <article>
+            <p>Je m'appelle <strong>Youssef EL ABDI</strong>, j'ai 19 ans et je vous présente mon site portfolio,</p>
+            <p>Je suis actuellement à l'école <strong>ENSITECH</strong> dans le campus situé à Cergy St. Christophe 95127 (2020-2022)</p>
+            <p>J'ai intégrée la fillière du <strong>BTS SIO SLAM</strong> (<em><u>Services informatiques aux organisations option B solutions logicielles et applications métiers</u></em>)</p>
+            <p>Etant en alternance pour l'année 2021-2022, Je recherche</p>
+            <p>Un poste de dévellopeur (<em><u>Front-end, Back-end etc...</u></em>)</p>
+            <p>Ou dévellopeur (<em><u>Web, Applicatif, meme jeux vidéo ou autres...</u></em>)</p>
+            <p><ins><strong>3 jours en entreprise / 2 jours à l'école sur 12 mois !!!</strong></ins></p>
+        </article>
+    </div>
+
+    <section class="sites" id="sites">
+        <div class="projets">
+            <article>
+                <h1>Mes Sites<br><img src="https://img.icons8.com/ultraviolet/50/000000/domain.png" width="5%" /></h1>
+                <iframe src="https://morsangeles.net/" width="500px" height="500px"></iframe>
+                <iframe src="https://youssefea.frcservices.eu/" width="500px" height="500px"></iframe>
+            </article>
+        </div>
+    </section>
+
+    <section class="actus" id="actus">
+        <div class="actu">
+            <article>
+                <h1>Actus<br><img src="https://img.icons8.com/ultraviolet/50/000000/news.png" width="5%" /></h1>
+                <h2>La Réalité Virtuel</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/u8qjoMW3Oso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2>Histoire</h2>
+                <p>L'expression « réalité virtuelle » (ou multimédia immersif ou réalité simulée par ordinateur) renvoie typiquement à une technologie informatique qui simule la présence physique d'un utilisateur dans un environnement artificiellement généré
+                    par des logiciels. La réalité virtuelle crée un environnement avec lequel l'utilisateur peut interagir. La réalité virtuelle reproduit donc artificiellement une expérience sensorielle, qui peut inclure la vue, le toucher, l'ouïe et
+                    l'odorat (visuelle, sonore ou haptique). La réalité virtuelle est à ne pas confondre avec la réalité augmentée. La réalité augmentée ajoute des éléments virtuels dans un environnement réel alors que la réalité virtuelle créé virtuellement
+                    un environnement réel ou imaginaire</p>
+                <h2>News</h2>
+                <p>Les sorties VR annoncées ne se bousculent toujours pas ce mois-ci, mais beaucoup pourraient encore arriver sans prévenir. Comme le mois dernier, les titres VR disposant d'une date de sortie arrêtée restent peu nombreux, mais beaucoup,
+                    annoncés pour 2021, ont pris du retard sans dévoiler officiellement de nouvelle échéance et pourraient très bien voir le jour en février (LOW-FI, Dolphin Trainer VR, Drums Rock, Ultimate Fishing Simulator 2 VR...). Mais si le mois
+                    de janvier affichait tout de même quelques titres d'envergure avec The Shore VR, Sword Reverie et surtout l'excellent Wanderer, février ne peut pas en dire autant. Il y a tout de même au programme deux suites de titres ayant bien marché,
+                    à commencer par Ultrawings 2 de Bit Planet Games le 3 février sur Quest 2. À noter qu'il est aussi attendu en mars sur PCVR et un peu plus tard sur PSVR.(source : https://www.jeuxvideo-live.com/news/lactu-vr-de-feevrier-2022-106261)</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="compe" id="compe">
+        <div class="competence">
+            <article>
+                <h1>Compétences<br><img src="https://img.icons8.com/plasticine/50/000000/development-skill.png" width="5%" /></h1>
+            </article>
+        </div>
+    </section>
+
+    <div class="comp">
+        <article>
+            <table class="tableau">
+
+                <thead>
+                    <!-- En-tête du tableau -->
+                    <tr>
+                        <th>Languagues<br><img src="https://img.icons8.com/color/50/000000/france.png" width="20%" /></th>
+                        <th>Logiciels<br><img src="https://img.icons8.com/office/50/000000/generic-mouse.png" width="20%" /></th>
+                        <th>Notions<br><img src="https://img.icons8.com/color/50/000000/student-male--v1.png" width="20%" /></th>
+                        <th>Languagues (Code)<br><img src="https://img.icons8.com/nolan/50/code-file.png" width="20%" /></th>
+                        <th>OS<br><img src="https://img.icons8.com/color/50/000000/windows8.png" width="20%" /></th>
+                        <th>Réseaux<br><img src="https://img.icons8.com/color/50/000000/wifi--v1.png" width="20%" /></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- Corps du tableau -->
+                    <tr>
+                        <td>Français <br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                        <td>Open Office<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Montage vidéo<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                        <td>C++<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Windows 10<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>LAN<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                    </tr>
+                    <tr>
+                        <td>Anglais<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>VCS / VS<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                        <td>Montage photo<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>C#<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>8<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>WAN<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                    </tr>
+                    <tr>
+                        <td>Espagnol<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Sony Vegas Pro<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                        <td>Création jeux<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Python<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>7<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Routage (RIP, Dynamique...)<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">Arabe<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>FL Studio<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                        <td>Création site<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>HTML<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Vista<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td rowspan="5">SQL<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Audacity<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Création musique<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                        <td>CSS<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>IOS<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                    </tr>
+                    <tr>
+                        <td>Unity / Unreal Engine<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td rowspan="3">Bureautique<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Wordpress<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+
+                        <td rowspan="3">Android<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+
+
+                    </tr>
+                    <tr>
+                        <td>OBS<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                        <td>Prestashop<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png"
+                                width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /></td>
+                    </tr>
+                    <tr>
+                        <td>Photoshop/Gimp<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                        <td>Java<br><img src="https://img.icons8.com/color/50/000000/filled-star--v1.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png"
+                                width="10%" /><img src="https://img.icons8.com/ios/50/000000/christmas-star.png" width="10%" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </div>
+
+    <section class="experiences" id="experiences">
+        <div class="experience">
+            <article>
+                <h1>Expériences<br><img src="https://img.icons8.com/ultraviolet/50/000000/thin-test-tube.png" width="5%" /></h1>
+            </article>
+        </div>
+    </section>
+
+    <div class="exp">
+        <article>
+            <table class="tablex">
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td colspan="6"><strong>Expériences professionelles</strong></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="4">Sept-Déc. 2021</td>
+                        <td>Responsable maintenance</td>
+                        <td>Alternance</td>
+                        <td>About Network</td>
+                        <td>Verneuil (78)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">2021</td>
+                        <td>Développeur web FrontEnd</td>
+                        <td>Stage</td>
+                        <td>Morsangeles</td>
+                        <td>Télétravail</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">2018-2019</td>
+                        <td>Technicien réseaux</td>
+                        <td>Stage</td>
+                        <td>Sam Phonie</td>
+                        <td>Les Mureaux (78)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Mai-Juill. 2018</td>
+                        <td>Technicien réseaux</td>
+                        <td>Stage</td>
+                        <td>About Network</td>
+                        <td>Verneuil (78)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Déc. 2015</td>
+                        <td>Employé</td>
+                        <td>Stage</td>
+                        <td>Halles du frais (78)</td>
+                        <td>Les Mureaux (78)</td>
+                    </tr>
+
+                </tbody>
+
+
+            </table>
+        </article>
+    </div>
+
+    <section class="autre" id="autre">
+        <div class="divers">
+            <article>
+                <h1>Formation et Divers<br><img src="https://img.icons8.com/ultraviolet/50/000000/school.png" width="5%" /></h1>
+            </article>
+        </div>
+    </section>
+
+    <div class="div">
+        <article>
+            <table class="tabledivers">
+
+
+                <ul>
+                    <li>En préparation 2 ème année BTS SIO SLAM 2021/2022 ENSITECH, Cergy (95)</li>
+                    <li>2020/2021 ère année BTS SIO SLAM en initial ENSITECH, Cergy (95) </li>
+                    <li>2019 / 2020 Baccalauréat professionnel Systèmes Numériques option RISC Lycée La Tournelle, La Garenne-Colombes (92)</li>
+                </ul>
+
+
+            </table>
+        </article>
+    </div>
+
+    <section class="cont" id="cont">
+        <div class="contacts">
+            <article>
+                <h1>Contacts<br><img src="https://img.icons8.com/office/50/000000/contact-card.png" width="5%" /></h1>
+            </article>
+        </div>
+    </section>
+
+    <div class="contact">
+        <article>
+            <table class="contactable">
+                <tbody>
+                    <tr>
+                        <td><strong>Mail</strong><br><img src="https://img.icons8.com/offices/50/000000/email.png" width="50px" /></td>
+                        <td><strong>Réseaux sociaux</strong><br><img src="https://img.icons8.com/office/50/000000/no-connection--v1.png" width="50px" /></td>
+                        <td><strong>Autre</strong><br><img src="https://img.icons8.com/office/50/000000/link.png" width="50px" /></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button" onclick="toggle_text();"><img src="https://img.icons8.com/color/50/000000/gmail--v1.png"/></button><br>
+                            <span id="span_txt"></span></td>
+                        <td>
+                            <a href="https://www.linkedin.com/in/youssef-el-abdi-042ba91a5/" title="Mon profil Linkedin"><img src="https://img.icons8.com/office/50/000000/linkedin.png" /></a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/Nyufr" title="Mon profil Github"><img src="https://img.icons8.com/windows/50/000000/github.png" /></a>
+                        </td>
+                    </tr>
+
+                    <div class="contactez-nous">
+                        <h1>Contactez-moi</h1>
+                        <p>Un problème, une question, un conseil ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec moi !</p>
+                        <form action="/page-traitement-donnees" method="post">
+                            <div>
+                                <label for="nom">Votre nom :</label>
+                                <input type="text" id="nom" name="nom" placeholder="Nom/Prénom" required>
+                            </div>
+                            <div>
+                                <label for="email">Votre e-mail :</label>
+                                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                            </div>
+                            <div>
+                                <label for="sujet">Quel est le sujet de votre message ? :</label>
+                                <select name="sujet" id="sujet" required>
+                        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                        <option value="probleme-compte">Problème avec le site</option>
+                        <option value="question-produit">Question à propos d’une chose en particulier</option>
+                        <option value="suivi-commande">Conseil</option>
+                        <option value="autre">Autre...</option>
+                        </select>
+                            </div>
+                            <div>
+                                <label for="message">Votre message :</label>
+                                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                            </div>
+                            <div>
+                                <button type="submit">Envoyer mon message</button>
+                            </div>
+                        </form>
+                    </div>
+                </tbody>
+            </table>
+        </article>
+    </div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/youssef-el-abdi-042ba91a5/"><i class="icon ion-social-linkedin"></i></a>
+                <a href="#cont"><i class="icon ion-social-google"></i></a>
+                <a href="https://github.com/Nyufr"><i class="icon ion-social-github"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#pres">Présentation</a></li>
+                <li class="list-inline-item"><a href="#sites">Mes Sites</a></li>
+                <li class="list-inline-item"><a href="#compe">Compétences</a></li>
+                <li class="list-inline-item"><a href="#experiences">Expériences</a></li>
+                <li class="list-inline-item"><a href="#cont">Contacts</a></li>
+            </ul>
+            <p class="copyright">Youssef EL ABDI</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+    <ul class="background">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+
+
+</html>
